@@ -16,7 +16,7 @@ vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
 
 #=======================================================================
 # what disk images will be used #=======================================================================
-floppya: 1_44=/tmp/mbr.img, status=inserted
+floppya: 1_44=/tmp/debug.img, status=inserted
 
 
 

@@ -31,3 +31,8 @@
 # Debug files
 *.dSYM/
 *.su
+
+# asm related files
+*.lst
+*.bin
+*.img
