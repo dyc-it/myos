@@ -36,3 +36,6 @@
 *.lst
 *.bin
 *.img
+
+# vi swap files
+*.swp

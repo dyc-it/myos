@@ -1,6 +1,7 @@
 ; filename: plus1to100.asm
 ; description: calculate 1 plus to 100 using stack
 
+; jump to the code section to execute
 jmp near start
 
 message db '1+2+3+...+100='
@@ -63,6 +64,7 @@ start:
         inc di
         loop showResult
 
+    ; $ represents the current instruction address, 'jmp near $' equals to 'infi: jmp near infi', it is a infinite loop
     jmp near $
 
 times 510-($-$$) db 0
